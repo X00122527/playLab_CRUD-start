@@ -1,0 +1,18 @@
+2016-11-10 12:16:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "PRODUCT" not found; SQL statement:
+select * from product [42102-192]
+2016-11-10 12:16:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "PRODUCTS" not found; SQL statement:
+select * from products [42102-192]
+2016-11-10 12:50:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT *[*] FROM PRODUCT "; expected "INTO"; SQL statement:
+insert * from product [42001-192]
+2016-11-10 12:50:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT *[*] FROM PRODUCT "; expected "INTO"; SQL statement:
+insert * from product [42001-192]
+2016-11-10 12:50:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT *[*] FROM PRODUCT "; expected "INTO"; SQL statement:
+insert * from product [42001-192]
+2016-11-10 12:50:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT *[*] FROM PRODUCT "; expected "INTO"; SQL statement:
+insert * from product [42001-192]
